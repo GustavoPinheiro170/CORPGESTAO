@@ -2,3 +2,19 @@
     width: 250px;
     height: 250px;
 }
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left:auto;
+    margin-right: auto;
+    }
+}
+
+.imgBanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
