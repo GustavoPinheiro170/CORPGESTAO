@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
 <head>
+    <link rel="sortcut icon" href='../images/simbolo.png' />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>CORP Gestão de Atendimento</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/Layout.css">
@@ -39,7 +40,7 @@
 <body>
     <div class="container-fluid mt-5">
         <div class="row justify-content-md-center">
-            <div class="col col-lg-6">
+            <div class="col col-lg-6 text-center">
                 <h4> GESTÃO DE ATENDIMENTO </h4>
                 </p>
                 <hr>
@@ -49,62 +50,93 @@
                 <img src='../images/banner.jpg' class='imgBanner'>
             </div>
         </div>
-
-        <div class="container-fluid" id="sobrenos">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="../images/logo.png" class="imgSobrenos">
+    </div>
+            <div class="container-fluid mt-5" id="rspv">
+                <div class="text-center">
+                    <h3>SERVIÇOS</h3><hr>
                 </div>
-                <div class="col-sm-6">
-                    <h1>Sobre Nós</h1>
-                    <hr>
-                    <p>Buscamos agilizar os processos e facilitar o atendimento, encontrando soluções rápidas e proporcionando uma experiência incrível.
-                    </p>
-                </div>
-            </div>
-
-            <div class="container-fluid align-items-center" id="rspv">
                 <div class="row">
+
                     <div class="col-sm-4">
-                        <img src="../images/sobrenos.jpg" class="imgSobrenos">
-                    </div>
-                    <div class="col-sm-4 ">
+                        <img src="../images/rsvp.png" class='icons' height="80px" width="80px">
                         <h1>RSVP</h1>
                         <hr>
-                        <p>Criação e envio de convites, RSVP ativo e receptivo, para eventos e campanhas em todo Brasil.</p>
+                        <p>Criação e envio de convites, RSVP ativo e
+                            receptivo, para eventos e campanhas em
+                            todo Brasil.</p>
                     </div>
-                </div>
-
-                <div class="container-fluid align-items-center" id="mailing">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="../images/sobrenos.jpg" class="imgSobrenos">
+        
+                        <div class="col-sm-4 ">
+                            <img src="../images/mailin.png"  class='icons' height="80px" width="80px">
+                            <h1>PROSPECÇÃO PARA
+                                GERAÇÃO DE LEADS</h1>
+                            <hr>
+                            <p>Otimize os resultados da sua área comercial
+                                com prospecção, qualificação e geração de
+                                leads. Também é possível realizar o
+                                agendamento de reuniões comerciais e gerar
+                                relatórios dos resultados alcançados.</p>
                         </div>
                         <div class="col-sm-4 ">
-                            <h1>Mailing</h1>
+                            <img src="../images/mailing.png"  class='icons'h eight="80px" width="80px">
+                            <h1>CONSTRUÇÃO E
+                                ATUALIZAÇÃO MAILING</h1>
                             <hr>
-                            <p>Levantamento e atualização do banco de dados cadastrais para você que quer criar campanhas e projetos assertivos e segmentados, contando com um mailing atualizado e focado nas suas reais necessidades.</p>
-                        </div>
-                    </div>
-
-                    <div class="container-fluid align-items-center" id="contato">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img src="../images/sobrenos.jpg" class="imgSobrenos">
-                            </div>
-                            <div class="col-sm-4 ">
-                                <h1>Nossos Clientes</h1>
-                                <hr>
-                                <p></p>
-                            </div>
+                            <p>Levantamento e atualização do banco de
+                                dados cadastrais para você que quer criar
+                                campanhas e projetos assertivos e
+                                segmentados, contando com um mailing
+                                atualizado e focado nas suas reais
+                                necessidades.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+
+
+<div class="container-fluid mt-5">
+    <div class="text-center">
+        <h3>NOSSOS CLIENTES</h3><hr>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <img src='../images/logoAMC_alta _cliente.jpg' width="300px" height="auto">
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-5" id='contato'>
+    <div class='row'>
+        <div class="col-sm-6 text-center">
+            <img src="../images/rsvp.png"  class='icons'h eight="80px" width="80px">
+            <h5>Contato via E-mail</h5><hr>
+            <p>Receba novidades diretamente em seu e-mail</p>
+        </div>
+        <div class="col-sm-6">
+            <form method='POST' action='email.php'>
+
+                <label for="Nome">Nome</label>
+                <input type='text' class='form-control'  name="Nome" id='Nome' required/>
+
+                <label for="Email">E-mail</label>
+                <input type='email' class='form-control ' name="Email" id='Email' required/><br>
+              <button class='btn btn-success ' name='Enviar'>Receber Noticias</button>
+            </form>
+          </div>
         </div>
     </div>
 </body>
-
+<footer>
+    <div class='container-fluid'>
+    <div class='row'>
+    <div class='col-sm-6 text-center'>
+    <img src='../images/logo_fundo.jpg' width="350px" height="auto">
+    </div>
+    <div class='col-sm-6 text-center' id='telefone'>
+    <p class='tel'>(11) 23400 3081</p>
+    <p class='tel'>(11) 23400 3081</p>
+    </div>
+    </div>
+</div>
+</footer>
 </html>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -112,3 +144,10 @@
   z-index:1000;" target="_blank">
     <i style="margin-top:16px" class="fa fa-whatsapp"></i>
 </a>
+
+<style>
+.text-center{
+    text-align: center !important;
+}
+
+</style>

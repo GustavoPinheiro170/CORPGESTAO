@@ -28,3 +28,61 @@
     width: 400px;
     height: 400px;
 }
+
+#rspv{
+background-color:#363636;
+color:white;
+padding: 50px;
+
+}
+#rspv h1{
+    font-size:22px;
+    text-align: center;
+}
+
+
+.icons{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    color:white;
+    filter: brightness(0.4);
+    filter: invert(75%)
+}
+hr{
+    background-color:white;
+    width: 40%;
+}
+#contato{
+    color:white;
+    padding: 50px;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.514),rgba(0, 0, 0, 0.63)
+    ),
+    url("../images/fundo-email.jpg") no-repeat;
+    background-size: cover;  
+}
+#contato::after{
+    content:'';
+    background-color:#0E1216;
+    z-index:99;
+}
+label{
+    margin:10px;
+}
+
+.btn-success{
+margin-bottom:20px;
+background-color: #2D4B61 !important ;
+border-color:#2D4B61 !important ;
+color:white;
+}
+.tel{
+    color:#5E91B6 ;
+    font-weight: 700;
+    font-size:29px;
+}
+#telefone{
+    margin-top: 8%;
+}
