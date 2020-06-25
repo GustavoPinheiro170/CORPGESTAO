@@ -25,7 +25,7 @@
        
         <ul class="navbar-nav" id='nav'>
             <li class="nav-item active">
-                <a class="nav-link" href="Index.html">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="Index.php">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#Sobre">SOBRE NÓS</a>
